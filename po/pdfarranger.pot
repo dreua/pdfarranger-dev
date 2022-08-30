@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-13 15:24+0200\n"
+"POT-Creation-Date: 2022-08-30 18:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,189 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: pdfarranger/core.py:87
-msgid "page"
-msgstr ""
-
-#: pdfarranger/core.py:191
-msgid "Password required"
-msgstr ""
-
-#: pdfarranger/core.py:202
-msgid "The password will be remembered until you close PDF Arranger."
-msgstr ""
-
-#: pdfarranger/core.py:203
-msgid ""
-"The document “{}” is locked and requires a password before it can be opened."
-msgstr ""
-
-#: pdfarranger/core.py:213
-msgid "Password"
-msgstr ""
-
-#: pdfarranger/core.py:289 pdfarranger/pdfarranger.py:1429
-msgid "Unknown file format"
-msgstr ""
-
-#: pdfarranger/core.py:305
-msgid "Image files are only supported with img2pdf"
-msgstr ""
-
-#: pdfarranger/core.py:311
-msgid "Image format is not supported by img2pdf"
-msgstr ""
-
-#: pdfarranger/core.py:314
-msgid "Clipboard image"
-msgstr ""
-
-#: pdfarranger/core.py:316 pdfarranger/pdfarranger.py:1439
-msgid "File is neither pdf nor image"
-msgstr ""
-
-#: pdfarranger/croputils.py:115
-msgid "Scale factor"
-msgstr ""
-
-#: pdfarranger/croputils.py:121
-msgid "%"
-msgstr ""
-
-#: pdfarranger/croputils.py:137
-msgid "mm"
-msgstr ""
-
-#: pdfarranger/croputils.py:147
-msgid "Left"
-msgstr ""
-
-#: pdfarranger/croputils.py:147
-msgid "Right"
-msgstr ""
-
-#: pdfarranger/croputils.py:147
-msgid "Top"
-msgstr ""
-
-#: pdfarranger/croputils.py:147
-msgid "Bottom"
-msgstr ""
-
-#: pdfarranger/croputils.py:151
-msgid "Crop Margins"
-msgstr ""
-
-#: pdfarranger/croputils.py:159
-msgid ""
-"Cropping does not remove any content from the PDF file, it only hides it."
-msgstr ""
-
-#: pdfarranger/croputils.py:168
-#, python-format
-msgid "% of width"
-msgstr ""
-
-#: pdfarranger/croputils.py:168
-#, python-format
-msgid "% of height"
-msgstr ""
-
-#: pdfarranger/croputils.py:215
-msgid "Page format"
-msgstr ""
-
-#: pdfarranger/croputils.py:230 pdfarranger/croputils.py:234
-#: pdfarranger/croputils.py:333
-msgid "Width"
-msgstr ""
-
-#: pdfarranger/croputils.py:231 pdfarranger/croputils.py:235
-#: pdfarranger/croputils.py:334
-msgid "Height"
-msgstr ""
-
-#: pdfarranger/croputils.py:233
-msgid "Relative"
-msgstr ""
-
-#: pdfarranger/croputils.py:236
-msgid "Page Size"
-msgstr ""
-
-#: pdfarranger/croputils.py:321
-msgid "Insert Blank Page"
-msgstr ""
-
-#: pdfarranger/exporter.py:130
-msgid "Warning"
-msgstr ""
-
-#: pdfarranger/exporter.py:135
-msgid "Forms and outlines are lost on saving."
-msgstr ""
-
-#: pdfarranger/exporter.py:137
-msgid "Do not show this dialog again."
-msgstr ""
-
-#: pdfarranger/exporter.py:342
-msgid "Printing…"
-msgstr ""
-
-#: pdfarranger/exporter.py:354
-msgid "Rendering Preview…"
-msgstr ""
-
-#: pdfarranger/metadata.py:42
-msgid "Title"
-msgstr ""
-
-#: pdfarranger/metadata.py:43
-msgid "Subject"
-msgstr ""
-
-#: pdfarranger/metadata.py:44
-msgid "Keywords"
-msgstr ""
-
-#: pdfarranger/metadata.py:45
-msgid "Producer"
-msgstr ""
-
-#: pdfarranger/metadata.py:46
-msgid "Creator"
-msgstr ""
-
-#: pdfarranger/metadata.py:47
-msgid "Creator tool"
-msgstr ""
-
-#: pdfarranger/metadata.py:48
-msgid "Created"
-msgstr ""
-
-#: pdfarranger/metadata.py:49
-msgid "Modified"
-msgstr ""
-
-#: pdfarranger/metadata.py:169
-msgid "Invalid date format. Input discarded."
-msgstr ""
-
-#: pdfarranger/metadata.py:198
-msgid "Edit properties"
-msgstr ""
-
-#: pdfarranger/metadata.py:212
-msgid "Property"
-msgstr ""
-
-#: pdfarranger/metadata.py:212
-msgid "Value"
-msgstr ""
-
-#: pdfarranger/pdfarranger.py:260
+#: ../pdfarranger/pdfarranger.py:260
 msgid ""
 "PDF Arranger is a small python-gtk application, which helps the user to "
 "merge or split pdf documents and rotate, crop and rearrange their pages "
@@ -207,410 +25,286 @@ msgid ""
 "pikepdf."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:271
+#: ../pdfarranger/pdfarranger.py:271
 msgid "Print the version of PDF Arranger and exit"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:279
+#: ../pdfarranger/pdfarranger.py:279
 msgid "File(s) to open"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:428
+#: ../pdfarranger/pdfarranger.py:428
 msgid "All pages must have the same size."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:456
+#: ../pdfarranger/pdfarranger.py:456
 msgid "All supported files"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:460
+#: ../pdfarranger/pdfarranger.py:460
 msgid "PDF files"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:467
+#: ../pdfarranger/pdfarranger.py:467
 msgid "All files"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:472
+#: ../pdfarranger/pdfarranger.py:472
 msgid "Supported image files"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:691
+#: ../pdfarranger/pdfarranger.py:691
 msgid "Rendering…"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:769
+#: ../pdfarranger/pdfarranger.py:769
 msgid "untitled"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:916 pdfarranger/pdfarranger.py:925
-#: pdfarranger/pdfarranger.py:1025 pdfarranger/pdfarranger.py:1050
+#: ../pdfarranger/pdfarranger.py:916 ../pdfarranger/pdfarranger.py:925
+#: ../pdfarranger/pdfarranger.py:1025 ../pdfarranger/pdfarranger.py:1050
 msgid "_Cancel"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:924
+#: ../pdfarranger/pdfarranger.py:924
 msgid "Your changes will be lost if you don’t save them."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:925
+#: ../pdfarranger/pdfarranger.py:925
 msgid "Do_n’t Save"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:925 pdfarranger/pdfarranger.py:1024
-#: data/menu.ui.h:4
+#: ../pdfarranger/pdfarranger.py:925 ../pdfarranger/pdfarranger.py:1024
 msgid "_Save"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:934
+#: ../pdfarranger/pdfarranger.py:934
 msgid "Discard changes and close?"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:935 data/menu.ui.h:45
+#: ../pdfarranger/pdfarranger.py:935
 msgid "_Close"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:940
+#: ../pdfarranger/pdfarranger.py:940
 msgid "Save changes to “{}” before closing?"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:943
+#: ../pdfarranger/pdfarranger.py:943
 msgid "Save changes before closing?"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:968
+#: ../pdfarranger/pdfarranger.py:968
 msgid "Discard changes and quit?"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:969 data/menu.ui.h:46
+#: ../pdfarranger/pdfarranger.py:969
 msgid "_Quit"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:974
+#: ../pdfarranger/pdfarranger.py:974
 msgid "Save changes to “{}” before quitting?"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:977
+#: ../pdfarranger/pdfarranger.py:977
 msgid "Save changes before quitting?"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1019
+#: ../pdfarranger/pdfarranger.py:1019
 msgid "Save As…"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1019
+#: ../pdfarranger/pdfarranger.py:1019
 msgid "Export…"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1049 data/menu.ui.h:1
+#: ../pdfarranger/pdfarranger.py:1049
 msgid "_Open"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1092
+#: ../pdfarranger/pdfarranger.py:1092
 msgid "Open…"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1163
+#: ../pdfarranger/pdfarranger.py:1163
 msgid "Saving produced some warnings"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1164
+#: ../pdfarranger/pdfarranger.py:1164
 msgid "Despite the warnings the document(s) should have no visible issues."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1171
+#: ../pdfarranger/pdfarranger.py:1171
 msgid "Don't show warnings when saving again."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1201
+#: ../pdfarranger/pdfarranger.py:1201
 msgid "Saving…"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1235
+#: ../pdfarranger/pdfarranger.py:1235
 msgid "Import…"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1329
+#: ../pdfarranger/pdfarranger.py:1329
 msgid "Pasted data not valid. Aborting paste."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:1433
+#: ../pdfarranger/pdfarranger.py:1429
+msgid "Unknown file format"
+msgstr ""
+
+#: ../pdfarranger/pdfarranger.py:1433
 msgid "PDF document is damaged"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:2294
+#: ../pdfarranger/pdfarranger.py:1439
+msgid "File is neither pdf nor image"
+msgstr ""
+
+#: ../pdfarranger/pdfarranger.py:2294
 #, python-format
 msgid "%s is a tool for rearranging and modifying PDF files."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:2297
+#: ../pdfarranger/pdfarranger.py:2297
 #, python-format
 msgid "It uses libqpdf %s, pikepdf %s, GTK %s and Python %s."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:2303
+#: ../pdfarranger/pdfarranger.py:2303
 msgid "Maintainers and contributors"
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:2308
+#: ../pdfarranger/pdfarranger.py:2308
 msgid "GNU General Public License (GPL) Version 3."
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:2326
+#: ../pdfarranger/pdfarranger.py:2326
 msgid "Selected pages: "
 msgstr ""
 
-#: pdfarranger/pdfarranger.py:2331
+#: ../pdfarranger/pdfarranger.py:2331
 msgid "Page Size:"
 msgstr ""
 
-#: pdfarranger/splitter.py:26
-msgid "Split Pages"
+#: ../pdfarranger/metadata.py:42
+msgid "Title"
 msgstr ""
 
-#: pdfarranger/splitter.py:60
-msgid "Columns"
+#: ../pdfarranger/metadata.py:43
+msgid "Subject"
 msgstr ""
 
-#: pdfarranger/splitter.py:60
-msgid "Rows"
+#: ../pdfarranger/metadata.py:44
+msgid "Keywords"
 msgstr ""
 
-#: pdfarranger/splitter.py:61
-msgid "Vertical Splits"
+#: ../pdfarranger/metadata.py:45
+msgid "Producer"
 msgstr ""
 
-#: pdfarranger/splitter.py:61
-msgid "Horizontal Splits"
+#: ../pdfarranger/metadata.py:46
+msgid "Creator"
 msgstr ""
 
-#: pdfarranger/splitter.py:62
-msgid "Equal column width"
+#: ../pdfarranger/metadata.py:47
+msgid "Creator tool"
 msgstr ""
 
-#: pdfarranger/splitter.py:62
-msgid "Equal row height"
+#: ../pdfarranger/metadata.py:48
+msgid "Created"
 msgstr ""
 
-#: pdfarranger/splitter.py:87
-msgid "#Col"
+#: ../pdfarranger/metadata.py:49
+msgid "Modified"
 msgstr ""
 
-#: pdfarranger/splitter.py:87
-msgid "#Row"
+#: ../pdfarranger/metadata.py:169
+msgid "Invalid date format. Input discarded."
 msgstr ""
 
-#: pdfarranger/splitter.py:88
-msgid "Width in %"
+#: ../pdfarranger/metadata.py:198
+msgid "Edit properties"
 msgstr ""
 
-#: pdfarranger/splitter.py:88
-msgid "Height in %"
+#: ../pdfarranger/metadata.py:212
+msgid "Property"
 msgstr ""
 
-#: data/pdfarranger.ui.h:1
-msgid "Open"
+#: ../pdfarranger/metadata.py:212
+msgid "Value"
 msgstr ""
 
-#: data/pdfarranger.ui.h:2
-msgid "Import"
+#: ../pdfarranger/croputils.py:115
+msgid "Scale factor"
 msgstr ""
 
-#: data/pdfarranger.ui.h:3
-msgid "Save"
+#: ../pdfarranger/croputils.py:121
+msgid "%"
 msgstr ""
 
-#: data/pdfarranger.ui.h:4
-msgid "Save As"
+#: ../pdfarranger/croputils.py:137
+msgid "mm"
 msgstr ""
 
-#: data/pdfarranger.ui.h:5
-msgid "Main Menu"
+#: ../pdfarranger/croputils.py:147
+msgid "Left"
 msgstr ""
 
-#: data/pdfarranger.ui.h:6
-msgid "Zoom In"
+#: ../pdfarranger/croputils.py:147
+msgid "Right"
 msgstr ""
 
-#: data/pdfarranger.ui.h:7
-msgid "Zoom Out"
+#: ../pdfarranger/croputils.py:147
+msgid "Top"
 msgstr ""
 
-#: data/pdfarranger.ui.h:8
-msgid "Rotate Left"
+#: ../pdfarranger/croputils.py:147
+msgid "Bottom"
 msgstr ""
 
-#: data/pdfarranger.ui.h:9
-msgid "Rotate Right"
+#: ../pdfarranger/croputils.py:151
+msgid "Crop Margins"
 msgstr ""
 
-#: data/menu.ui.h:2
-msgid "_Import"
+#: ../pdfarranger/croputils.py:159
+msgid ""
+"Cropping does not remove any content from the PDF file, it only hides it."
 msgstr ""
 
-#: data/menu.ui.h:3
-msgid "_New Window"
+#: ../pdfarranger/croputils.py:168
+#, python-format
+msgid "% of width"
 msgstr ""
 
-#: data/menu.ui.h:5
-msgid "Save _As…"
+#: ../pdfarranger/croputils.py:168
+#, python-format
+msgid "% of height"
 msgstr ""
 
-#: data/menu.ui.h:6
-msgid "E_xport"
+#: ../pdfarranger/croputils.py:215
+msgid "Page format"
 msgstr ""
 
-#: data/menu.ui.h:7
-msgid "E_xport Selection to a Single File…"
+#: ../pdfarranger/croputils.py:230 ../pdfarranger/croputils.py:234
+#: ../pdfarranger/croputils.py:333
+msgid "Width"
 msgstr ""
 
-#: data/menu.ui.h:8
-msgid "Export Selection to _Individual Files…"
+#: ../pdfarranger/croputils.py:231 ../pdfarranger/croputils.py:235
+#: ../pdfarranger/croputils.py:334
+msgid "Height"
 msgstr ""
 
-#: data/menu.ui.h:9
-msgid "Export _All Pages to Individual Files…"
+#: ../pdfarranger/croputils.py:233
+msgid "Relative"
 msgstr ""
 
-#: data/menu.ui.h:10
-msgid "_Print…"
+#: ../pdfarranger/croputils.py:236
+msgid "Page Size"
 msgstr ""
 
-#: data/menu.ui.h:11
-msgid "_Undo"
-msgstr ""
-
-#: data/menu.ui.h:12
-msgid "_Redo"
-msgstr ""
-
-#: data/menu.ui.h:13
-msgid "_Edit"
-msgstr ""
-
-#: data/menu.ui.h:14
-msgid "Rotate _Left"
-msgstr ""
-
-#: data/menu.ui.h:15
-msgid "_Rotate Right"
-msgstr ""
-
-#: data/menu.ui.h:16
-msgid "_Page Format"
-msgstr ""
-
-#: data/menu.ui.h:17
-msgid "Crop White Borders"
-msgstr ""
-
-#: data/menu.ui.h:18
-msgid "_Delete"
-msgstr ""
-
-#: data/menu.ui.h:19
-msgid "Dupl_icate"
-msgstr ""
-
-#: data/menu.ui.h:20
-msgid "Re_verse Order"
-msgstr ""
-
-#: data/menu.ui.h:21
-msgid "_Split Pages"
-msgstr ""
-
-#: data/menu.ui.h:22
-msgid "Cu_t"
-msgstr ""
-
-#: data/menu.ui.h:23
-msgid "_Copy"
-msgstr ""
-
-#: data/menu.ui.h:24
-msgid "Paste _After"
-msgstr ""
-
-#: data/menu.ui.h:25
-msgid "Paste _Before"
-msgstr ""
-
-#: data/menu.ui.h:26
-msgid "Paste As _Odd Pages"
-msgstr ""
-
-#: data/menu.ui.h:27
-msgid "Paste As _Even Pages"
-msgstr ""
-
-#: data/menu.ui.h:28
-msgid "Insert Blan_k Page"
-msgstr ""
-
-#: data/menu.ui.h:29
-msgid "Generate Booklet"
-msgstr ""
-
-#: data/menu.ui.h:30
-msgid "_Select"
-msgstr ""
-
-#: data/menu.ui.h:31
-msgid "Select _All"
-msgstr ""
-
-#: data/menu.ui.h:32
-msgid "_Deselect All"
-msgstr ""
-
-#: data/menu.ui.h:33
-msgid "Select _Odd Pages"
-msgstr ""
-
-#: data/menu.ui.h:34
-msgid "Select _Even Pages"
-msgstr ""
-
-#: data/menu.ui.h:35
-msgid "All From _Same File"
-msgstr ""
-
-#: data/menu.ui.h:36
-msgid "Same Page _Format"
-msgstr ""
-
-#: data/menu.ui.h:37
-msgid "_Invert Selection"
-msgstr ""
-
-#: data/menu.ui.h:38
-msgid "_View"
-msgstr ""
-
-#: data/menu.ui.h:39
-msgid "Zoom _In"
-msgstr ""
-
-#: data/menu.ui.h:40
-msgid "Zoom _Out"
-msgstr ""
-
-#: data/menu.ui.h:41
-msgid "Zoom _Fit"
-msgstr ""
-
-#: data/menu.ui.h:42
-msgid "Full_screen"
-msgstr ""
-
-#: data/menu.ui.h:43
-msgid "Edit _Properties"
-msgstr ""
-
-#: data/menu.ui.h:44
-msgid "_About"
-msgstr ""
-
-#: data/menu.ui.h:47
-msgid "Past_e Special"
+#: ../pdfarranger/croputils.py:321
+msgid "Insert Blank Page"
 msgstr ""
