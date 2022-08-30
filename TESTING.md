@@ -79,3 +79,5 @@ TODO (does not work):
 ```
 podman run -e DBUS_SESSION_BUS_ADDRESS -e DISPLAY -e HOME --rm -v /run/user/1001:/run/user/1001 -v $HOME:$HOME --net=host -w $PWD docker.io/jeromerobert/pdfarranger-docker-ci:1.8.0  sh -c "pip install .[image] ; python3 -u -m unittest discover -s tests -v"
 ```
+
+Need to `apk add ttf-cantarell`
